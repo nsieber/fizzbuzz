@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#button').on('click', function() {
-        fizzBuzz(15)
+        fizzBuzz($('#number').val())
     })
 })
 
