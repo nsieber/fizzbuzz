@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 function fizzBuzz (number) {
         
-    var i = 3;
+    var i = 1;
         
     for (i; i <= number; i++) {
         if (i % 3 == 0 && i % 5 == 0) {
@@ -17,6 +17,9 @@ function fizzBuzz (number) {
         }
         else if (i % 5 == 0) {
             output('buzz');
+        }
+        else {
+            output(i);
         }
     }
 }
